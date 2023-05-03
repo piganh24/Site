@@ -1,0 +1,148 @@
+body {
+  background: white;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1370px;
+}
+
+.header {
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__inner {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-top: 26px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  text-decoration: none;
+  vertical-align: top;
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin-top: 26px;
+  margin-right: 40px;
+}
+
+.nav__link:hover {
+  color: white;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 1015px;
+  width: 100%;
+  left: 1604px;
+  top: -195px;
+  border-radius: 0px;
+  background: url("../images/Bitmap.png") center no-repeat;
+  margin: 0 0 0 0;
+  background-size: cover;
+  -webkit-backdrop: cover;
+}
+
+.intro__h1 {
+  position: absolute;
+  height: 21px;
+  right: 79.77%;
+  top: calc(50% - 10.5px - 195.5px);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+
+.intro__h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  color: white;
+  position: absolute;
+  bottom: 42.68%;
+  text-align: left;
+}
+
+.intro__h3 {
+  position: absolute;
+  top: 60.15%;
+  bottom: 10.5%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
+.intro__h4 {
+  position: absolute;
+  height: 24px;
+  top: calc(50% - 12px + 195px);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  transition: color 0.2s linear;
+  text-decoration: underline;
+}
+
+.intro__h4:hover {
+  color: #fce38a;
+}
+
+.box__logo {
+  position: absolute;
+  width: 1400px;
+  height: 227px;
+  left: 503px;
+  top: 900px;
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px;
+}
+
+.box__logo__comp {
+  justify-content: center;
+  display: inline-block;
+  position: relative;
+  margin-left: 65px;
+  top: 60px;
+}/*# sourceMappingURL=main.css.map */
