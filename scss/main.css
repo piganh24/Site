@@ -1,5 +1,5 @@
 body {
-  background: white;
+  background: #ffffff;
 }
 
 *,
@@ -36,8 +36,7 @@ h5 {
   display: flex;
   align-items: center;
 }
-
-.header__logo {
+.header__inner .header__logo {
   margin-top: 26px;
   position: relative;
   display: inline-block;
@@ -47,15 +46,14 @@ h5 {
 .nav__link {
   text-decoration: none;
   vertical-align: top;
-  color: white;
+  color: #ffffff;
   position: relative;
   display: inline-block;
   margin-top: 26px;
   margin-right: 40px;
 }
-
-.nav__link:hover {
-  color: white;
+.nav__link .nav__link:hover {
+  color: #ffffff;
 }
 
 .intro {
@@ -72,8 +70,7 @@ h5 {
   background-size: cover;
   -webkit-backdrop: cover;
 }
-
-.intro__h1 {
+.intro .intro__h1 {
   position: absolute;
   height: 21px;
   right: 79.77%;
@@ -83,34 +80,31 @@ h5 {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: white;
+  color: #ffffff;
 }
-
-.intro__h2 {
+.intro .intro__h2 {
+  position: absolute;
+  bottom: 42.68%;
+  text-align: left;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 74px;
-  color: white;
-  position: absolute;
-  bottom: 42.68%;
-  text-align: left;
+  color: #ffffff;
 }
-
-.intro__h3 {
+.intro .intro__h3 {
   position: absolute;
   top: 60.15%;
   bottom: 10.5%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: white;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
 }
-
-.intro__h4 {
+.intro .intro__h4 {
   position: absolute;
   height: 24px;
   top: calc(50% - 12px + 195px);
@@ -119,12 +113,11 @@ h5 {
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
-  color: white;
+  color: #ffffff;
   transition: color 0.2s linear;
   text-decoration: underline;
 }
-
-.intro__h4:hover {
+.intro .intro__h4:hover {
   color: #fce38a;
 }
 
@@ -138,8 +131,7 @@ h5 {
   box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
   border-radius: 2px;
 }
-
-.box__logo__comp {
+.box__logo .box__logo__comp {
   justify-content: center;
   display: inline-block;
   position: relative;
